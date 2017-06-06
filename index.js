@@ -5,7 +5,12 @@ function HandleSubmit(ev) {
   ev.preventDefault()
   const f = ev.target
   const targetList = document.querySelector('#list')
+  const item = createItem(f.inputBox.value)
+  targetList.insertBefore(item,document.querySelector('li'))
+}
+
+function createItem(name) {
   const item = document.createElement('li')
-  item.innerHTML = f.inputBox.value
-  targetList.appendChild(item)
+  item.innerHTML = name
+  return item
 }
