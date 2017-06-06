@@ -37,3 +37,7 @@ button#submitButton {
   padding-top: 20px;
   text-align: center;
 }
+
+li, ul {
+  list-style-type: none;
+}
