@@ -1,6 +1,5 @@
 body {
-  padding: 70px 0;
-  border: 3px solid green;
+  padding: 70px 0; //border: 3px solid green;
   text-align: center;
 }
 
@@ -34,6 +33,7 @@ button#submitButton {
   background-color: lightblue;
 }
 
-.list {
-  border: 2px solid green;
+#list {
+  padding-top: 20px;
+  text-align: center;
 }
